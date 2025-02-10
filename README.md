@@ -1,3 +1,3 @@
-# Sales_Insights_Dashboard-Power-BI-SQL
+Project : Sales Insights of Data Analysis-AtliQ Hardware
 
 

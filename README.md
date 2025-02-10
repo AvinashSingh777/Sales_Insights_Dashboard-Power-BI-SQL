@@ -1,3 +1,3 @@
-Project : Sales Insights of Data Analysis-AtliQ Hardware
+Sales Insight Dashboard using PowerBI
 
 

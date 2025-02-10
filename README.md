@@ -98,6 +98,10 @@ Dashboard - Key Insights
 
 ![DashBoard_1](https://github.com/user-attachments/assets/d6a56c65-9f11-44ad-a402-2f3e9aa00f0f)
 
+Dashboard - Profit Analysis
+
+![Dashboard_2 1](https://github.com/user-attachments/assets/a524d160-6c67-4da1-99c4-69835500e984)
+
 ## Insights
 <u></u>
 

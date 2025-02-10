@@ -96,25 +96,32 @@ The sales insights data tables as show below:
 
 
 Dashboard - Key Insights
-
+<u></u>
 
 ![DashBoard_1](https://github.com/user-attachments/assets/d6a56c65-9f11-44ad-a402-2f3e9aa00f0f)
 
 <u></u>
 
 Dashboard - Profit Analysis
-
+<u></u>
 
 ![Dashboard_2 1](https://github.com/user-attachments/assets/a524d160-6c67-4da1-99c4-69835500e984)
 
 
 
 Dashboard - Profit Analysis(2020)
-
+<u></u>
 
 ![Dashboard_2 2](https://github.com/user-attachments/assets/c149ab23-5a30-439b-8e2f-961c453b3d43)
 
 <u></u>
+
+
+Dashboard - Performance Insights(2020)
+<u></u>
+
+![DashBoard_PerformanceInsights](https://github.com/user-attachments/assets/8d4c7b11-fd9d-4eff-a5c0-1f08a486c57f)
+
 
 ## Insights
 <u></u>

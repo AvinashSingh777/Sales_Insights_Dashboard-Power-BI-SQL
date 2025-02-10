@@ -2,7 +2,8 @@
  <u></u> 
 
 ## Problem Statement :
- <u></u>
+<u></u>
+
 AtliQ Hardware company sales insights - A Data Analysis project.
 
 AtliQ Hardware is a company which supplies computer hardwares and peripherals across India having head office in delhi and many regional offices through out India. Sales director of this company is facing a lot of challenges with decline in sales in dynamically growing market. He is unable to track the sales in real time and take data driven decision to rectify the decline in sales. He is not getting satisfactory report or insights from regional managers of different zones. Reports are not in simpler form instead lots of excel files which are hard to get clear insights.
@@ -14,6 +15,7 @@ Sales Director of the AltiQ hardware decided to have a Sales Insights Dashboard 
 
 ## Steps to be Followed in this project
 <u></u>
+
 1. Learned about AIMS grid for project planning.
 2. Imported db_dump.sql file in MySQL and performed Data Analysis Using SQL.
 3. Used MySQL for retrieving the data from the database into Power BI.
@@ -24,12 +26,14 @@ Sales Director of the AltiQ hardware decided to have a Sales Insights Dashboard 
 
 ## AIMS Grid :
  <u></u>
+ 
  AIMS grid project management tool is being used here which consists of four components.
  
 ![AIMS grid sales insights](https://github.com/user-attachments/assets/a17b8db5-ad7e-427c-864e-849c86bad919)
 
 ## Data Analysis using MySQL :
 <u></u>
+
 1. Show all customer records
        SELECT * FROM customers;
 2. Show total number of customers
@@ -52,8 +56,10 @@ Sales Director of the AltiQ hardware decided to have a Sales Insights Dashboard 
        SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
        and transactions.market_code="Mark001";
 
+
 ## Data Cleaning and ETL (Extract, Transform, Load):
 <u></u>
+
 In this process, we are work on data cleaning and ETL.
 
 Step 1: Connect the MySQL database with the PowerBI desktop.
@@ -65,6 +71,7 @@ Convert USD into INR in the transaction’s table: the AtliQ Hardware only works
 
 In power query editor -> 1. = Table.SelectRows(sales_markets, each ([zone] <> ""))
                          2. = Table.AddColumn(sales_transactions, "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else[sales_amount])
+
 
 ## Data Modeling and DAX
 <u></u>

@@ -73,7 +73,7 @@ In power query editor -> 1. = Table.SelectRows(sales_markets, each ([zone] <> ""
                          2. = Table.AddColumn(sales_transactions, "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else[sales_amount])
 
 
-## Data Modeling and DAX
+## Data Modeling and DAX :
 <u></u>
 
 Dataset was cleaned and transformed, it was ready for the data modeling.

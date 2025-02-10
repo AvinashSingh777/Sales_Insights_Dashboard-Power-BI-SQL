@@ -65,3 +65,23 @@ Convert USD into INR in the transaction’s table: the AtliQ Hardware only works
 
 In power query editor -> 1. = Table.SelectRows(sales_markets, each ([zone] <> ""))
                          2. = Table.AddColumn(sales_transactions, "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else[sales_amount])
+
+## Data Modeling and DAX
+<u></u>
+
+Dataset was cleaned and transformed, it was ready for the data modeling.
+The sales insights data tables as show below:
+
+![Data_Model](https://github.com/user-attachments/assets/ce2eccbc-791d-4196-9d4f-58340cf4b8c6)
+
+## Insights
+<u></u>
+
+In this dashboard, we can see company has generated total revenue in 4 years ₹ 985M, total profit margin ₹24.7M, Profit margin% 2.5%, Sales Qty ₹2M. in 2020 company has generated total revenue of ₹ 142M by selling a total of 350K and earned a profit of ₹ 2.1M.
+In 4 years Delhi NCR is our largest market in terms of revenue with ₹ 520M and total contribution of 52.8% with total revenue but if you look at the profit margin Delhi NCR is generating only 2.3% profit margin.
+If we check the profit margin then here In 2020 Bhubaneshwar comes into the picture which is generating the highest profit margin of 10.48%. Similarly, if we can check the Profit Contribution % by Market then here Mumbai is the largest player with 23.89% of total contribution in total profit.
+In 4 years Bengaluru generating the lowest profit margin of -20.8%.if we can check the Profit Contribution % by Market then here also Bengaluru is the Lower with -0.3% of total contribution in total profit.
+In our top 5 customers, the Electricalsara Stores is our biggest customer who has generated total ₹ 413 M revenue generated in 4 years.
+In our top 5 products,the Prod318 is our highest product has generated total ₹ 69M revenue generated in 4 years.
+In product type Distribution has generated the revenue of ₹494M and ownbrand revenue is ₹494M generated in entire 4 years.
+Revenue Trend is showing that in June 2020 revenue has been decreased drastically compared to the revenue last year and the profit margin was the least in April 2020.

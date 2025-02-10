@@ -34,7 +34,7 @@ Sales Director of the AltiQ hardware decided to have a Sales Insights Dashboard 
 ## Data Analysis using MySQL :
 <u></u>
 
-1. Show all customer records
+1. Show all customer records <br />
        SELECT * FROM customers;
 2. Show total number of customers
        SELECT count(*) FROM customers;

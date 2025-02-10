@@ -11,3 +11,6 @@ So to get insights in simpler form in realtime and take data driven decision to 
 
 ## AIMS Grid :
  <u></u>
+ AIMS grid project management tool is being used here which consists of four components.
+ 
+![AIMS grid sales insights](https://github.com/user-attachments/assets/a17b8db5-ad7e-427c-864e-849c86bad919)

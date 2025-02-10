@@ -61,6 +61,7 @@ Step 1: Connect the MySQL database with the PowerBI desktop.
 Step 2: Loading data into the Power BI deskstop. This step load all the tables and created in the data base. This load option will connect with the SQL and pull all the records into 
         power BI environment.
         
-Convert USD into INR in the transaction’s table: the AtliQ Hardware only works in India so the USD values are not possible. we need to convert those USD values into INR by using  formulas  and remove cities like Paris, New York not having zone.    
-In power query editor ->  = Table.SelectRows(sales_markets, each ([zone] <> ""))
-                          = Table.AddColumn(sales_transactions, "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else[sales_amount])
+Convert USD into INR in the transaction’s table: the AtliQ Hardware only works in India so the USD values are not possible. we need to convert those USD values into INR by using  formulas  and remove cities like Paris, New York not having zone.
+
+In power query editor -> 1. = Table.SelectRows(sales_markets, each ([zone] <> ""))
+                         2. = Table.AddColumn(sales_transactions, "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else[sales_amount])

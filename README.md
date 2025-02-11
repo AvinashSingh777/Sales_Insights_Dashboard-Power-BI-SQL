@@ -81,7 +81,7 @@ The sales insights data tables as show below:
 
 ![Data_Model](https://github.com/user-attachments/assets/ce2eccbc-791d-4196-9d4f-58340cf4b8c6)
 
-### Key Measures:
+## Key Measures :
 
 1. Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
 2. Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales products'),ALL('sales 
@@ -93,7 +93,7 @@ The sales insights data tables as show below:
 7. Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
 
 
-## Data Visualization:
+## Data Visualization :
 
 
 Dashboard - Key Insights

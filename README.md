@@ -81,15 +81,16 @@ The sales insights data tables as show below:
 
 ![Data_Model](https://github.com/user-attachments/assets/ce2eccbc-791d-4196-9d4f-58340cf4b8c6)
 
-###Key Measures:
+### Key Measures:
 
-1.Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
-2.Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
-3.Revenue = SUM('sales transactions'[sales_amount])
-4.Revenue Contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
-5.Revenue LY = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
-6.sales quntity = SUM('sales transactions'[sales_qty])
-7.Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
+1. Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
+2. Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales products'),ALL('sales 
+   customers'),ALL('sales markets')))
+3. Revenue = SUM('sales transactions'[sales_amount])
+4. Revenue Contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+5. Revenue LY = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
+6. sales quntity = SUM('sales transactions'[sales_qty])
+7. Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
 
 
 ## Data Visualization:
